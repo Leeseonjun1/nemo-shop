@@ -1,0 +1,127 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Single Day', cursive;
+}
+.d-none{
+    display: none;
+}
+header .logo{
+    width:126px;
+    height:75px;
+    margin:0 auto;
+}
+.page-tittle{
+    background-color: #6F2BFF;
+    color:White;
+    padding:5px 0;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.login-filed, .check-filed{
+    max-width: 600;
+    margin:50px auto;
+    border:1px solid #666;
+    padding:30px;
+}
+.login-filed h2, .check-filed h2{
+    text-align: center;
+    margin-bottom:20px;
+}
+#order_num{
+    width:88%;
+    padding:15px 0;
+    margin:10px 0;
+}
+#guk_num, #mid_num, #last_num{
+    padding:15px 0;
+    margin:10px 0;
+}
+#guk_num{
+    width:10%;
+}
+#mid_num{
+    width:15%;
+}
+#last_num{
+    width:15%;
+}
+[for=order_num], [for=guk_num]{
+    background-color: orange;
+    display:inline-block;
+    width:5%;
+    margin-right: 2%;
+}
+#u_id,#u_pw,[type=submit],[type=button]{
+            width:100%;
+            margin: 10px 0;
+            padding:15px 0;
+}
+#u_id,#u_pw{
+    text-indent: 20px;
+}
+[type=submit]{
+    background-color: #6F2BFF;
+    color:white;
+    border:0;
+    font-size: 19px;
+}
+[type=button]{
+    background-color: #2758f9;
+    color:white;
+    border:0;
+    font-size: 19px;
+}
+.check-filed [type=submit]{
+    background-color: #000;
+}
+#u_id{
+    border-top:0;
+    border-left:0;
+    border-right:0;
+}
+
+.screen_out{
+    position:absolute;
+    left:-100%;
+    width: 0;
+    height:0;
+}
+.links{
+    border-top: 1px solid #999;
+    border-bottom:1px soliid #999;
+    padding: 10px 0;
+    text-align: center;
+}
+.links li {
+display: inline-block;
+}
+.links li:nth-child(2){
+    margin:0 15px
+}
+.links a{
+ color:#999;
+ text-decoration: none;
+ font-size: 14px
+ 
+}
+.contact{
+    font-size: 40px;
+    color:#d8724e;
+    text-align: center;
+    margin:15px 0;
+}
+.address{
+    font-size:13px;
+    color:#999;
+    text-align: center;
+}
+.owner{
+    font-size: 12px;
+    color:#999;
+    text-align: center;
+}
+footer .logo2{
+    margin: 30px auto;
+    text-align: center;
+}
